@@ -1,11 +1,18 @@
 
-body{
-    background-color: rgb(251, 212, 196);
-  }
+#nav-menu{font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-weight: bolder;}
 
+.carousel-control-prev .visually-hidden,
+.carousel-control-next .visually-hidden {
+    display: none;
+}
 
+#carouselm {
+    height: 50%; /* Adjust the width as needed */
+}
 
-
+body {
+    background-image: linear-gradient(45deg, #000 25%, transparent 25%, transparent 75%, #000 75%);
+}
 
 /* Estilos para pantallas más pequeñas */
 @media (max-width: 768px) {
